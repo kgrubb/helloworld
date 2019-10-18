@@ -9,7 +9,7 @@ jobs:
     container:
       image: madisongrubb/release
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@master
     - name: Publish Release & Generate Changelogs
       run: elementary-release
       env:
