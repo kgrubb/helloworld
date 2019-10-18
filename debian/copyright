@@ -1,0 +1,7 @@
+Format: https://dep.debian.net/deps/dep5
+Upstream-Name: hello-packaging
+Source: https://github.com/kgrubb/helloworld
+
+Files: *
+Copyright: 2019 Madison Grubb
+License: GPL-3.0+

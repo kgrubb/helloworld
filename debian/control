@@ -1,0 +1,16 @@
+Source: com.github.kgrubb.helloworld
+Section: x11
+Priority: extra
+Maintainer: Madison Grubb <keligrubb324@gmail.com>
+Build-Depends: debhelper (>= 10.5.1),
+               gettext,
+               libgtk-3-dev (>= 3.10),
+               meson,
+               valac (>= 0.28.0)
+Standards-Version: 4.1.1
+
+Package: com.github.kgrubb.helloworld
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Hello World
+ This is a Hello World written in Vala using Meson build system.
