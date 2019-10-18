@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+      - master
+ release:
+    runs-on: ubuntu-latest
+    container:
+      image: madisongrubb/release
+    steps:
+    - uses: actions/checkout@v1
+    - name: Publish Release & Generate Changelogs
+      run: elementary-release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
