@@ -1,5 +1,5 @@
     # project name and programming language
-    project('com.github.yourusername.yourrepositoryname', 'vala', 'c')
+    project('com.github.kgrubb.helloworld', 'vala', 'c')
 
     # Create a new executable, list the files we want to compile, list the dependencies we need, and install
     executable(
