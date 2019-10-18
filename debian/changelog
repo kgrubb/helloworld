@@ -1,5 +1,9 @@
-com.github.yourusername.yourrepositoryname (0.1ubuntu1) UNRELEASED; urgency=low
+com.github.yourusername.yourrepositoryname (1.0.3) unstable; urgency=low
 
+  [ Keli Grubb ]
   * Initial Release.  * 
 
- -- Keli Grubb <keli@keli-ThinkPad-T430s>  Fri, 18 Oct 2019 13:13:22 -0400
+  [ root ]
+  * [release] 1.0.3 (#5)
+
+ -- root <root@140a5657910e>  Fri, 18 Oct 2019 20:04:42 +0000
