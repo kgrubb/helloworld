@@ -1,16 +1,13 @@
 name: Release
 on:
-  push:
-    branches:
-      - master
+  pull_request:
+    types: closed
 jobs:
   release:
     runs-on: ubuntu-latest
-    container:
-      image: madisongrubb/release
     steps:
     - uses: actions/checkout@master
-    - name: Publish Release & Generate Changelogs
-      run: elementary-release
+    - uses: kgrubb/release-action@master
+      if: github.event.pull_request.merged == true && github.event.pull_request.labels.includes('release')
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
