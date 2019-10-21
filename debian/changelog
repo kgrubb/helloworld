@@ -2,6 +2,12 @@ com.github.yourusername.yourrepositoryname (1.2.2) unstable; urgency=medium
 
   * use branches instead of branch (#21)
 
+ -- Madison Grubb <keligrubb324@gmail.com>  Mon, 21 Oct 2019 20:00:21 +0000
+
+com.github.yourusername.yourrepositoryname (1.2.2) unstable; urgency=medium
+
+  * use branches instead of branch (#21)
+
  -- Madison Grubb <keligrubb324@gmail.com>  Mon, 21 Oct 2019 19:48:52 +0000
 
 com.github.yourusername.yourrepositoryname (1.2.2) unstable; urgency=medium
