@@ -1,14 +1,15 @@
 name: Release
 on:
   pull_request:
+    branch: master
     types: closed
 jobs:
   release:
     runs-on: ubuntu-latest
-    if: github.event.label.name == 'release'
     steps:
     - uses: actions/checkout@master
     - uses: kgrubb/release-action@master
       if: github.event.pull_request.merged == true
+      if: true == contains(join(github.event.pull_request.labels.*.name), 'release')
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
