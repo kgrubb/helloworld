@@ -1,3 +1,11 @@
+com.github.yourusername.yourrepositoryname (1.2.1) unstable; urgency=medium
+
+  * release 1.2.1 (#19)
+  * move if statement higher in the release ci run (#18)
+  * test out quotes in appdata entry (#17)
+
+ -- Madison Grubb <keligrubb324@gmail.com>  Mon, 21 Oct 2019 18:27:38 +0000
+
 com.github.yourusername.yourrepositoryname (1.2.0) unstable; urgency=medium
 
   * Release 14 (#15)
