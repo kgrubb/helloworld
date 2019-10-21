@@ -12,7 +12,7 @@ public class MyApp : Gtk.Application {
         button_hello.margin = 12;
 
         button_hello.clicked.connect (() => {
-            button_hello.label = "Hello World!";
+            button_hello.label = "Hello World! I am a button";
             button_hello.sensitive = false;
         });
         var main_window = new Gtk.ApplicationWindow (this);
