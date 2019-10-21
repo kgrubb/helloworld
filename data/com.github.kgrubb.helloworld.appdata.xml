@@ -12,6 +12,7 @@
     <description>
       <ul>
         <li>add "I am a button" to button label</li>
+        <li>make ci runs faster by skipping earlier in release jobs</li>
       </ul>
     </description>
   </release>
