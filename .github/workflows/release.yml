@@ -8,7 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: kgrubb/release-action@master
+    - name: Create release
+      uses: kgrubb/release-action@master
       if: github.event.pull_request.merged == true && true == contains(join(github.event.pull_request.labels.*.name), 'release')
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
