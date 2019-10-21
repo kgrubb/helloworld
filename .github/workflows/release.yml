@@ -6,10 +6,10 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true && true == contains(join(github.event.pull_request.labels.*.name), 'release')
     steps:
     - uses: actions/checkout@v1
     - name: Create release
       uses: kgrubb/release-action@master
-      if: github.event.pull_request.merged == true && true == contains(join(github.event.pull_request.labels.*.name), 'release')
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
