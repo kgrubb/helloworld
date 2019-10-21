@@ -9,7 +9,6 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: kgrubb/release-action@master
-      if: github.event.pull_request.merged == true
-      if: true == contains(join(github.event.pull_request.labels.*.name), 'release')
+      if: github.event.pull_request.merged == true && true == contains(join(github.event.pull_request.labels.*.name), 'release')
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
