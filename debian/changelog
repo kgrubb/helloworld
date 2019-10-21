@@ -1,5 +1,16 @@
 com.github.yourusername.yourrepositoryname (1.1.0) unstable; urgency=medium
 
+  * try another format (#14)
+  * use single if (#13)
+  * try different format for getting release label (#12)
+  * check to see if the job was skipped due to master only (#11)
+  * try different if statement (#10)
+  * try new github action format (#9)
+
+ -- root <root@26e5a4a50988>  Mon, 21 Oct 2019 15:55:05 +0000
+
+com.github.yourusername.yourrepositoryname (1.1.0) unstable; urgency=medium
+
   * [release] 1.1.0 (#8)
   * add hello world button (#7)
 
