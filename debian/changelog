@@ -1,3 +1,29 @@
+com.github.yourusername.yourrepositoryname (1.4.0) unstable; urgency=medium
+
+  * release 1.4.0 (#24)
+  * release 1.3.0 (#23)
+  * use branches instead of branch (#21)
+  * test out some more strings in release sanitizing effort (#20)
+  * release 1.2.1 (#19)
+  * move if statement higher in the release ci run (#18)
+  * test out quotes in appdata entry (#17)
+  * Release 14 (#15)
+  * try another format (#14)
+  * use single if (#13)
+  * try different format for getting release label (#12)
+  * check to see if the job was skipped due to master only (#11)
+  * try different if statement (#10)
+  * try new github action format (#9)
+  * [release] 1.1.0 (#8)
+  * add hello world button (#7)
+  * [release] 1.0.4 (#6)
+  * [release] 1.0.3 (#5)
+  * [release] 1.0.2 (#4)
+  * [release] 1.0.2 (#3)
+  * release 1.0.0 [release] (#1)
+
+ -- Madison Grubb <keligrubb324@gmail.com>  Tue, 22 Oct 2019 20:42:20 +0000
+
 com.github.yourusername.yourrepositoryname (1.3.0) unstable; urgency=medium
 
   * release 1.3.0 (#23)
