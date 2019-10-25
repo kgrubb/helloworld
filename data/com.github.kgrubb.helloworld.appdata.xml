@@ -8,6 +8,14 @@
   <description>
     <p>A quick summary of your app's main selling points and features. Just a couple sentences per paragraph is best.</p>
   </description>
+  <release version="1.4.4" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>use a token without org permissions</li>
+        <li>filter commits in a cleaner manner</li>
+      </ul>
+    </description>
+  </release>
   <release version="1.4.3" date="2019-10-18" urgency="medium">
     <description>
       <ul>
