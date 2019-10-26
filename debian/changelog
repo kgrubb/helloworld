@@ -1,3 +1,12 @@
+com.github.yourusername.yourrepositoryname (1.4.6) unstable; urgency=medium
+
+  * Merge pull request #32 from kgrubb/release-with-extra
+  * release 1.4.6
+  * Merge pull request #31 from kgrubb/change-button-name
+  * add a change to the button
+
+ -- Madison Grubb <keligrubb324@gmail.com>  Sat, 26 Oct 2019 05:08:58 +0000
+
 com.github.yourusername.yourrepositoryname (1.4.5) unstable; urgency=medium
 
   * no changes since last release.
