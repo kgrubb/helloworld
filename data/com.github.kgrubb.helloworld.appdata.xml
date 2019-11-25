@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2019 Your Name <you@email.com> -->
 <component type="desktop">
-  <id>com.github.yourusername.yourrepositoryname</id>
+  <id>com.github.kgrubb.helloworld</id>
   <metadata_license>CC0</metadata_license>
-  <name>Your App's Name</name>
+  <name>Hello World</name>
   <summary>A Catchy Tagline</summary>
   <description>
     <p>A quick summary of your app's main selling points and features. Just a couple sentences per paragraph is best.</p>
   </description>
+  <release version="1.5.0" date="2019-10-18" urgency="medium">
+    <description>
+      <p>New features:</p>
+        <ul>
+          <li>Option to "automatically" play next videos</li>
+          <li>Navigate the playlist with the keyboard</li>
+        </ul>
+        <p>Other updates:</p>
+        <ul>
+          <li>Show an error for unsupported files</li>
+          <li>Translation updates</li>
+        </ul>
+    </description>
+  </release>
   <release version="1.4.6" date="2019-10-18" urgency="medium">
     <description>
       <ul>
