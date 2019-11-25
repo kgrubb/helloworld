@@ -1,3 +1,10 @@
+com.github.yourusername.yourrepositoryname (1.5.0) unstable; urgency=medium
+
+  * add release notes to test html release note content (#33)
+  * add release notes to test html release note content
+
+ -- Madison Grubb <keligrubb324@gmail.com>  Mon, 25 Nov 2019 19:05:28 +0000
+
 com.github.yourusername.yourrepositoryname (1.4.6) unstable; urgency=medium
 
   * Merge pull request #32 from kgrubb/release-with-extra
