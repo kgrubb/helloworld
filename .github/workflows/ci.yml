@@ -8,7 +8,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: kgrubb/build-action@master
       with:
-        dependencies: "libgtk-3-dev"
+        dependencies: "libgtk-3-dev vim"
       env:
         DESTDIR: out
   lint:
