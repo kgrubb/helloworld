@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 Your Name <you@email.com> -->
+<component type="desktop">
+  <id>com.github.kgrubb.helloworld</id>
+  <metadata_license>CC0</metadata_license>
+  <name>Hello World</name>
+  <summary>A Catchy Tagline</summary>
+  <description>
+    <p>A quick summary of your app's main selling points and features. Just a couple sentences per paragraph is best.</p>
+  </description>
+  <release version="1.5.1" date="2019-10-18" urgency="medium">
+    <description>
+      <p>1.5.1 features:</p>
+        <ul>
+          <li>Some cool thing to "automatically" do stuff</li>
+          <li>free carrots for everyone</li>
+        </ul>
+        <p>Other updates:</p>
+        <ul>
+          <li>Replaced "foo" with "bar"</li>
+          <li>Translation updates</li>
+        </ul>
+    </description>
+  </release>
+  <release version="1.5.0" date="2019-10-18" urgency="medium">
+    <description>
+      <p>New features:</p>
+        <ul>
+          <li>Option to "automatically" play next videos</li>
+          <li>Navigate the playlist with the keyboard</li>
+        </ul>
+        <p>Other updates:</p>
+        <ul>
+          <li>Show an error for unsupported files</li>
+          <li>Translation updates</li>
+        </ul>
+    </description>
+  </release>
+  <release version="1.4.6" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>made a change to the button</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.4.5" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>be more verbose in debian changelog step</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.4.4" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>use a token without org permissions</li>
+        <li>filter commits in a cleaner manner</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.4.3" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>use no-org</li>
+        <li>investigate failed pipeline run</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.4.2" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>test token without org permissions</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.4.1" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>swap to a new method for fetching debian changelog info</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.4.0" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>build with a custom git user token</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.3.0" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>build to juno branch instead of stable.</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.2.2" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>test out another quoted section "I am a button"</li>
+        <li>now to be obnoxious... "The" future 'is' super cool * i guess.</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.2.1" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>add "I am a button" to button label</li>
+        <li>make ci runs faster by skipping earlier in release jobs</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.2.0" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>release another version for testing</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.1.0" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>added a hello world button</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.0.4" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>checkout from master before rebasing stable</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.0.3" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>build with better dch changelog management</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.0.2" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>yar (yet another release)</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.0.1" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>next release</li>
+      </ul>
+    </description>
+  </release>
+  <release version="1.0.0" date="2019-10-18" urgency="medium">
+    <description>
+      <ul>
+        <li>initial release</li>
+      </ul>
+    </description>
+  </release>
+</component>
+
