@@ -1,24 +1,21 @@
-    # project name and programming language
-    project('com.github.kgrubb.helloworld', 'vala', 'c')
+# project name and programming language
+project('com.github.kgrubb.helloworld', 'vala', 'c')
 
-    # Create a new executable, list the files we want to compile, list the dependencies we need, and install
-    executable(
-        meson.project_name(),
-        'src/Application.vala',
-        dependencies: [
-            dependency('gtk+-3.0')
-        ],
-        install: true
-    )
+# Include the translations module
+i18n = import('i18n')
 
-    #Install our .desktop file so the Applications Menu will see it
-    install_data(
-        join_paths('data', meson.project_name() + '.desktop'),
-        install_dir: join_paths(get_option('datadir'), 'applications')
-    )
+# Set our translation domain
+add_global_arguments('-DGETTEXT_PACKAGE="@0@"'.format (meson.project_name()), language:'c')
 
-    #Install our .appdata.xml file so AppCenter will see it
-    install_data(
-        join_paths('data', meson.project_name() + '.appdata.xml'),
-        install_dir: join_paths(get_option('datadir'), 'metainfo')
-    )
+# Create a new executable, list the files we want to compile, list the dependencies we need, and install
+executable(
+    meson.project_name(),
+    'src/Application.vala',
+    dependencies: [
+        dependency('gtk+-3.0')
+    ],
+    install: true
+)
+
+subdir('data')
+subdir('po')

@@ -1,0 +1,3 @@
+src/Application.vala
+data/com.github.kgrubb.helloworld.desktop.in
+data/com.github.kgrubb.helloworld.appdata.xml.in
