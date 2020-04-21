@@ -1,3 +1,5 @@
 # Helloworld Vala App
 
-simple helloworld app for testing purposes
+![screen_shot](https://i.stack.imgur.com/wOz1V.png)
+
+Simple helloworld app for testing purposes
