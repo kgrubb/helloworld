@@ -8,6 +8,14 @@
   <description>
     <p>A quick summary of your app's main selling points and features. Just a couple sentences per paragraph is best.</p>
   </description>
+  <release version="1.5.2" date="2019-10-18" urgency="medium">
+    <description>
+      <p>1.5.2 features:</p>
+      <ul>
+        <li>Use new action to test auth headers</li>
+      </ul>
+    </description>
+  </release>
   <release version="1.5.1" date="2019-10-18" urgency="medium">
     <description>
       <p>1.5.1 features:</p>
@@ -160,4 +168,3 @@
     </description>
   </release>
 </component>
-
